@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    color: black;
+    font-size: 30px;
+
+}
+
+h2{
+    color:blueviolet;
+    font-size: 40px;
+}
+p{
+    color: black;
+    width: 40%;
+    font-size: 17px;
+}
+section{
+    display: flex;
+}
+.one{
+    padding-right: 10%;
+}
+.two{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px 40px;
+    border-radius:5px;
+    color: antiquewhite;
+    font-weight: 700;
+}
+.top-semi-circule{
+    background-image: url(Images/download-purple-half-semi-circle-png-116652254076qcnl6j7zk\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 5%;
+}
