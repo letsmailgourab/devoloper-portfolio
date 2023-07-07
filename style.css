@@ -2,21 +2,6 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-h1{
-    color: black;
-    font-size: 30px;
-
-}
-
-h2{
-    color:blueviolet;
-    font-size: 40px;
-}
-p{
-    color: black;
-    width: 40%;
-    font-size: 17px;
-}
 section{
     display: flex;
 }
@@ -36,3 +21,9 @@ section{
     background-repeat: no-repeat;
     background-size: 5%;
 }
+.header-container p::before{
+  content: ">";
+  display: inline-block;
+  margin-right: 5px;
+}
+  
