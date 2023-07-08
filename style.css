@@ -72,26 +72,30 @@ section {
     content: "";
     position: absolute;
     top: 250px;
-    left: 15px; /* Adjust this value to position the line properly */
+    left: 65px; /* Adjust this value to position the line properly */
     width: 2px; /* Adjust this value to change the thickness of the line */
-    height: 79%; /* Adjust this value to change the height of the line */
+    height: 81%; /* Adjust this value to change the height of the line */
     background-color: #000; /* Adjust this value to change the color of the line */
   }
   
   .right-column {
     flex: 1;
+    position: relative; /* Add this line to position the vertical line */
   }
   
   .summary-title {
-    margin-left: 30px;
+    margin-left: 620px; /* Add this line */
+    margin-right: auto; /* Add this line */
     font-size: 30px;
     margin-top: 80px;
-    color:rgb(139, 39, 233)
+    color: rgb(139, 39, 233);
+    text-align: center; /* Add this line */
   }
+  
   
   .education-title {
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 85px;
     font-size: 30px;
   }
   .degree:before {
@@ -108,31 +112,104 @@ section {
   }
   .degree {
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 80px;
+    margin-bottom: 15px;
     font-size: 30px;
     position: relative; /* Add this line to position the pseudo-element */
   }
   
   .institute {
-    margin-left: 30px;
+    margin-left: 80px;
     font-size: 17px;
   }
   
   .year {
-    margin-left: 30px;
+    margin-left: 80px;
     margin-bottom: 0;
     border-radius: 5px;
+    padding: 10px 20px; /* Add this line */
+  background-color: rgb(161, 78, 239); /* Add this line */
+  color: antiquewhite; /* Add this line */
+  display: inline-block; /* Add this line */
   }
   
   .percentage {
-    margin-left: 30px;
+    margin-left: 80px;
     font-size: 17px;
   }
   
   .experience-title {
-    margin-left: 150px;
+    margin-left: 190px;
     margin-right: 30px;
-    margin-top: 147px;
+    margin-top: 158px;
     font-size: 30px;
   }
+.Trainee-title{
+  margin-top: 30px;
+  margin-left: 200px;
+  font-size: 30px;
+  position: relative; 
+}
+.Trainee-title:before{
+  content: "";
+  background: #fff;
+  border: 2px solid #1f5297;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  left: -24px; /* Adjust this value to position the symbol properly */
+  top: 50%; /* Adjust this value to position the symbol properly */
+  transform: translateY(-50%); /* Adjust this value to position the symbol properly */
+}
+.right-column::before {
+  content: "";
+  position: absolute;
+  top: 250px;
+  left: 185px; /* Adjust this value to position the line properly */
+  width: 2.5px; /* Adjust this value to change the thickness of the line */
+  height: 35%; /* Adjust this value to change the height of the line */
+  background-color: #000; /* Adjust this value to change the color of the line */
+}
+.Company-name{
+  margin-left: 200px;
+  font-size: 20px;
+  font-weight:600;
+}
+.Time{
+  margin-left: 200px;
+  margin-bottom: 0;
+  border-radius: 5px;
+  padding: 10px 20px; /* Add this line */
+background-color: rgb(161, 78, 239); /* Add this line */
+color: antiquewhite; /* Add this line */
+display: inline-block; /* Add this line */
+}
+.project-title{
+  margin-left: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.ulist{
+  margin-left: 185px;
+  font-size: 19px;
+}
+.skill-descrip{
+  font-size: 19px;
+  font-weight: 500;
+}
+.download-cv{
+  margin-left: 620px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  background-color: blueviolet;
+  padding: 10px 40px;
+  border-radius:5px;
+  color: antiquewhite;
+  font-weight: 700;
+}
+
+
   
