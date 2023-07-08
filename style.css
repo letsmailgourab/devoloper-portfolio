@@ -1,3 +1,5 @@
+/* Add the following lines to include the Font Awesome CSS */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -9,8 +11,9 @@ section{
 .one{
     padding-right: 10%;
 }
-.two{
-    text-decoration: none;
+.hire-me{
+  margin-left: 30px;  
+  text-decoration: none;
     background-color: blueviolet;
     padding: 10px 40px;
     border-radius:5px;
@@ -199,17 +202,93 @@ display: inline-block; /* Add this line */
   font-size: 19px;
   font-weight: 500;
 }
-.download-cv{
-  margin-left: 620px;
-  margin-top: 200px;
-  margin-bottom: 30px;
+.download-cv {
+  text-align: center; /* Center the link horizontally */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.download-cv a {
   text-decoration: none;
   background-color: blueviolet;
   padding: 10px 40px;
-  border-radius:5px;
+  border-radius: 5px;
   color: antiquewhite;
   font-weight: 700;
 }
+
+.contact{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+}
+.contact .section-title{
+  text-align: left;
+}
+.contact input[type="text"],
+.contact input[type="email"] {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+  background-color: #FFF; /* Set the background color for input fields */
+}
+.contact textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+  background-color: #FFF; /* Set the background color for the textarea */
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+input.btn-primary {
+  height: 64px;
+  background-color: rgb(194, 143, 240);
+  padding: 10px 40px;
+  border: 0;
+  color: #FFF; /* Set the text color for the submit button */
+  cursor: pointer;
+}
+input.btn-primary:hover {
+  background-color: #c05bde;
+}
+
+.contact input[type="submit"] {
+  background-color: rgb(194, 143, 240); /* Change the button color */
+  color: #fff; /* Change the text color */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #c05bde; /* Change the button color on hover */
+}
+.contact a{
+  text-decoration: none;
+}
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-icons a:first-child {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.social-icons i {
+  font-size: 30px;
+}
+.social-icons i.fa-facebook {
+  font-size: 30px;
+}
+
+
+
+
+
 
 
   
