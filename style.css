@@ -1,9 +1,12 @@
 /* Add the following lines to include the Font Awesome CSS */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
-    overflow-x: hidden;
+body {
+  font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
 }
 section{
     display: flex;
@@ -284,6 +287,11 @@ input.btn-primary:hover {
 .social-icons i.fa-facebook {
   font-size: 30px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 
 
