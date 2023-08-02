@@ -1,12 +1,9 @@
 /* Add the following lines to include the Font Awesome CSS */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
-body {
-  font-size: 16px;
-}
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px; /* Adjust the font size for smaller screens */
-  }
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
 }
 section{
     display: flex;
@@ -287,9 +284,21 @@ input.btn-primary:hover {
 .social-icons i.fa-facebook {
   font-size: 30px;
 }
-img {
-  max-width: 100%;
-  height: auto;
+/* Your existing CSS rules here */
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust the styles for mobile devices here */
+  .top-semi-circule {
+      background-size: 10%;
+  }
+
+  .box-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Add more styles as needed for mobile devices */
 }
 
 
