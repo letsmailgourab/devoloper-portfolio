@@ -1,54 +1,36 @@
 /* Add the following lines to include the Font Awesome CSS */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
 }
 section{
     display: flex;
 }
-.one {
-  padding: 20px;
+.one{
+    padding-right: 10%;
 }
-.hire-me {
-  display: inline-block;
+.hire-me{
+  margin-left: 30px;  
   text-decoration: none;
-  background-color: blueviolet;
-  padding: 10px 40px;
-  border-radius: 5px;
-  color: antiquewhite;
-  font-weight: 700;
+    background-color: blueviolet;
+    padding: 10px 40px;
+    border-radius:5px;
+    color: antiquewhite;
+    font-weight: 700;
 }
-.top-semi-circule {
-  background-image: url(Images/download-purple-half-semi-circle-png-116652254076qcnl6j7zk\ \(1\).png);
-  background-repeat: no-repeat;
-  background-size: 5%;
-  text-align: center;
-  padding: 100px 0;
+.top-semi-circule{
+    background-image: url(Images/download-purple-half-semi-circle-png-116652254076qcnl6j7zk\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 5%;
 }
-.content-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about-me-section {
-  padding: 50px 20px;
-  text-align: center;
-  background-color: #eee6f6;
-}
-
-.about-me-section h1 {
-  font-size: 30px;
-  color: rgb(139, 39, 233);
-}
-
-.about-content {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-.header-container p::before {
+.about {
+    background: #eee6f6;
+    border-radius: 10px;
+    padding: 30px 30px;
+  }  
+.header-container p::before{
   content: ">";
   display: inline-block;
   margin-right: 5px;
@@ -302,32 +284,6 @@ input.btn-primary:hover {
 .social-icons i.fa-facebook {
   font-size: 30px;
 }
-@media screen and (max-width: 768px) {
-  .content-container {
-      flex-direction: column;
-  }
-
-  .one {
-      margin-bottom: 20px;
-  }
-
-  .about-me-section h1 {
-      font-size: 24px;
-  }
-
-  .header-container p::before {
-      content: none;
-  }
-}
-.desktop-image {
-  display: none;
-}
-.mobile-image {
-  display: block;
-  margin: 20px auto;
-  max-width: 90%;
-}
-
 
 
 
