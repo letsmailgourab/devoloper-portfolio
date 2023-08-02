@@ -284,11 +284,8 @@ input.btn-primary:hover {
 .social-icons i.fa-facebook {
   font-size: 30px;
 }
-/* Your existing CSS rules here */
-
 /* Add media queries for responsiveness */
 @media screen and (max-width: 768px) {
-  /* Adjust the styles for mobile devices here */
   .top-semi-circule {
       background-size: 10%;
   }
@@ -298,7 +295,9 @@ input.btn-primary:hover {
       align-items: center;
   }
 
-  /* Add more styles as needed for mobile devices */
+  .one {
+      text-align: center;
+  }
 }
 
 
