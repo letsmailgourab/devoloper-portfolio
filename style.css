@@ -76,7 +76,7 @@ section {
     top: 250px;
     left: 20px; /* Adjust this value to position the line properly */
     width: 2px; /* Adjust this value to change the thickness of the line */
-    height: 81%; /* Adjust this value to change the height of the line */
+    height: 50%; /* Adjust this value to change the height of the line */
     background-color: #000; /* Adjust this value to change the color of the line */
   }
   
@@ -170,7 +170,7 @@ section {
   top: 250px;
   left: 185px; /* Adjust this value to position the line properly */
   width: 2.5px; /* Adjust this value to change the thickness of the line */
-  height: 54%; /* Adjust this value to change the height of the line */
+  height: 86%; /* Adjust this value to change the height of the line */
   background-color: #050505; /* Adjust this value to change the color of the line */
 }
 .Company-name{
@@ -445,7 +445,7 @@ section {
   top: 200px;
   left: 15px; /* Adjust this value to position the line properly */
   width: 2px; /* Adjust this value to change the thickness of the line */
-  height: 82%; /* Adjust this value to change the height of the line */
+  height: 90%; /* Adjust this value to change the height of the line */
   background-color: #000; /* Adjust this value to change the color of the line */
 }
 .Company-name{
